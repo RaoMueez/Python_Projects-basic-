@@ -1,0 +1,19 @@
+# Tic-Tac-Toe Game 
+
+A classic 2-player Tic-Tac-Toe game built with Python. Playable directly in the terminal or command prompt, this game handles turns, validates player inputs, and automatically detects wins or draws.
+
+## Features
+* **2-Player Mode:** Take turns as Player 1 (X) and Player 2 (O).
+* **Smart Input Validation:** Prevents the game from crashing if a player types letters, chooses numbers out of range (1-9), or selects a spot that is already taken.
+* **Core Python Logic:** Utilizes fundamental data structures like Lists (for the board), Dictionaries (for player tracking), Tuples (for win conditions), and Sets (to track occupied spaces).
+
+## Prerequisites
+* Python 3.x installed on your computer.
+
+## How to Run
+1. Save the code in a file named `tic_tac_toe.py`.
+2. Open your terminal or command prompt.
+3. Navigate to the folder where you saved the file.
+4. Run the following command:
+   ```bash
+   python tic_tac_toe.py

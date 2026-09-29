@@ -1,0 +1,25 @@
+# Rock, Paper, Scissors Game 
+
+A simple, interactive command-line implementation of the classic Rock-Paper-Scissors game written in Python. Play against the computer in a continuous loop until you decide to quit.
+
+## Features
+* **User vs. Computer:** The computer randomly selects its move using Python's `random` module.
+* **Input Validation:** Prevents the game from crashing if you accidentally type a letter or an invalid number.
+* **Continuous Gameplay:** Automatically asks if you want to play another round after each match.
+
+## Game Rules
+1. Rock (1) defeats Scissors (3).
+2. Scissors (3) defeats Paper (2).
+3. Paper (2) defeats Rock (1).
+4. If both players choose the same option, the round ends in a draw.
+
+## Prerequisites
+* Python 3.x installed on your system.
+
+## How to Run
+1. Save the code to a file named `rock_paper_scissors.py`.
+2. Open your terminal or command prompt.
+3. Navigate to the folder where the file is saved.
+4. Run the following command:
+   ```bash
+   python rock_paper_scissors.py
