@@ -1,25 +1,15 @@
-# Simple Bank Account Simulator 
+# Bank Account Simulator 🏦
 
-A beginner-friendly Object-Oriented Programming (OOP) project in Python. This program simulates a basic bank account where users can deposit funds, withdraw money safely, and check their current balance through the command line.
+A concise Object-Oriented Python script that simulates basic banking operations. It allows users to deposit funds, withdraw money safely, and view their formatted balance.
 
 ## Features
-* **Account Initialization:** Automatically starts with a zero balance upon creation.
-* **Deposit:** Add funds to your account using floating-point numbers (decimals).
-* **Withdraw:** Remove funds safely. Includes validation to prevent withdrawing more money than is currently available (Insufficient balance check).
-* **Display Balance:** Instantly view the net available balance.
-
-## Core Python Concepts Used
-* **Object-Oriented Programming (OOP):** Grouping related variables and functions into a single `BankAccount` class.
-* **The `__init__` Method:** Using the constructor to set up the initial state of the object.
-* **The `self` Keyword:** Allowing methods to access and modify the account's specific balance variable.
-
-## Prerequisites
-* Python 3.x installed on your computer.
+* **Deposit Money:** Add funds to the account using decimal inputs.
+* **Withdraw Money:** Validates the requested withdrawal against the available balance to prevent overdrafts.
+* **Formatted Output:** Utilizes Python's `__str__` magic method to automatically format and display the net balance to two decimal places (e.g., `150.00`).
 
 ## How to Run
-1. Save the code in a file named `bank_account.py`.
+1. Save the code as `bank_account.py`.
 2. Open your terminal or command prompt.
-3. Navigate to the folder where you saved the file.
-4. Run the script using the following command:
+3. Execute the script:
    ```bash
    python bank_account.py
