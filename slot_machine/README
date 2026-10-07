@@ -1,0 +1,25 @@
+# Slot Machine Game 🎰
+
+A text-based, interactive Python slot machine where you can deposit funds, place bets on multiple lines, and test your luck against a randomized 3x3 spinning grid.
+
+## Features
+* **Dynamic Betting:** Deposit an initial balance and choose to bet on 1, 2, or 3 lines simultaneously.
+* **Weighted Probabilities:** Symbols have different frequencies and payout multipliers. Rare symbols yield higher rewards while common symbols yield lower rewards.
+* **Balance Tracking:** The game automatically calculates your total bet, deducts it from your balance, and adds any winnings after each spin.
+* **Continuous Play:** Keep spinning as long as you want. Cash out at any time or play until your balance hits zero.
+
+## Game Rules
+1. A winning line occurs when all 3 symbols in a horizontal row perfectly match.
+2. You only win on the specific lines you placed a bet on (e.g., betting on 1 line only checks the top row, betting on 2 checks the top and middle).
+3. Payouts are calculated based on the matching symbol's multiplier multiplied by your bet amount for that specific line.
+
+## Prerequisites
+* Python 3.x installed on your system.
+
+## How to Run
+1. Save the code to a file named `slot_machine.py`.
+2. Open your terminal or command prompt.
+3. Navigate to the directory where the file is saved.
+4. Run the script using the following command:
+   ```bash
+   python slot_machine.py
